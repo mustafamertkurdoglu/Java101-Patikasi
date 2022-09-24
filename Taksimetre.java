@@ -16,8 +16,9 @@ public class Taksimetre {
         System.out.print("KM Giriniz :");
         KM = girdi.nextDouble();
         Tutar = TakAc + (KM*TutKM) ;
-        boolean kosul1 = Tutar>20;
-        System.out.print(kosul1 ? "Taksimetre Tutarı :" +Tutar : " Taksimetre Tutarı :" +20);
+        Tutar = (Tutar<20) ? 20 : Tutar;
+
+        System.out.print("Taksimetre Tutarı :" +Tutar );
 
     }
 }

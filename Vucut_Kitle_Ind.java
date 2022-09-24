@@ -6,9 +6,9 @@ public class Vucut_Kitle_Ind {
         double kg, m , vki;
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Kilonuzu giriniz :");
+        System.out.print("Lütfen kilonuzu giriniz :");
         kg = inp.nextDouble();
-        System.out.print("Boyunuzu metre cinsinden giriniz :");
+        System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz :");
         m = inp.nextDouble();
 
         vki = kg/(m*m);

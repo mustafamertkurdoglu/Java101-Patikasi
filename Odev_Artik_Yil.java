@@ -10,7 +10,6 @@ public class Odev_Artik_Yil {
         b = year % 400;
         c = year % 100;
         System.out.println("Kalan :" + a);
-
         if (b == 0) {
             System.out.print(year + " artık yıldır.");
         } else if (c == 0)  {

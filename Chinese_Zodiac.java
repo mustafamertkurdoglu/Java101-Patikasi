@@ -1,11 +1,12 @@
 import java.util.Scanner;
+
 public class Chinese_Zodiac {
     public static void main(String[] args) {
-        int a,year;
+        int a, year;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your year of birth  :");
         year = input.nextInt();
-        a =  year%12;
+        a = year % 12;
         switch (a) {
             case 0:
                 System.out.print("Your Chinese Zodiac : Monkey");
@@ -45,7 +46,7 @@ public class Chinese_Zodiac {
                 break;
             case 11:
                 System.out.print("Your Chinese Zodiac :  Sheep");
-            default :
+            default:
                 System.out.print("You have entered wrong value");
 
         }
